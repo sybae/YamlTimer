@@ -43,6 +43,7 @@ target/
 .target
 .idea*
 .svn
+.mvn
 
 # Windows image file caches
 Thumbs.db
@@ -91,3 +92,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+mvnw
+mvnw.cmd
