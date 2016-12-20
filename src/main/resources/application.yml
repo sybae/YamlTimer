@@ -1,0 +1,16 @@
+spring:
+  profiles: 
+    active: local
+  timerName: yamlTimer
+---
+spring:
+  profiles: local
+  task:
+    fixedDelay: 1500
+    name: localTask
+---
+spring:
+  profiles: dev
+  task:
+    fixedDelay: 4000
+    name: devTask
